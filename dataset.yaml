@@ -1,8 +1,0 @@
-train: D:\Hackathon_Dataset\train\images
-val: D:\Hackathon_Dataset\val\images
-
-nc: 10
-
-names: ['D00', 'D40', 'D10', 'D20', 'D44', 'D01', 'D11', 'D50', 'D43', 'D0w0' ]
-
-
