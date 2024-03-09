@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Road Damage Detector</title>
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css"> 
+  <style>
+    /* Additional CSS Styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+
+    #upload-section {
+      margin-bottom: 20px;
+    }
+
+    #image-preview {
+      border: 2px dashed #ccc;
+      padding: 20px;
+      text-align: center;
+    }
+
+    #upload-form {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    #upload-form input[type="file"] {
+      display: none;
+    }
+
+    #upload-form button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+
+    #upload-form button:hover {
+      background-color: #45a049;
+    }
+
+    #results {
+      text-align: center;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Road Damage Detection</h1>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+
+    <!-- Upload  -->
+    <section id="upload-section">
+    
+      <div id="image-preview">
+        <!-- Preview image -->
+        <img src="placeholder.jpg" alt="Upload Image" id="preview-image">
+      </div>
+      
+      <form id="upload-form">
+        <input type="file" name="file" class="form-control-file" id="image-video-upload" accept="image/*, video/*">
+        <button class="btn btn-block btn-default btn-sm" type="submit">Analyze</button>  
+      </form>
+    
+    </section>
+
+    <!-- Results -->
+    <section id="results">
+    
+      <!-- Detected image -->
+      <img src="" alt="Detected Image" id="detected-image">
+    
+    </section>
+
+  </div>
+  
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Road Damage Detector</p>
+  </footer>
+
+  <!-- Script -->
+  <script src="app.js"></script>
+
+</body>
+</html>
