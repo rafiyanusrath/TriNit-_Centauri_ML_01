@@ -21,7 +21,7 @@ For training, we employed the YOLOv8n model. The model was trained using the pre
 To evaluate the performance of our model, we utilized testing images provided in the dataset. A few predicted images are available in this repository, generated using the custom weights obtained from training.
 
 ## Coding and Making the UI in PyQt
-We developed the user interface (UI) using PyQt for three purposes: <u>image detection</u>, <u>video input detection</u>, and <u>real-time detection</u>. The UI interface includes the following features:
+We developed the user interface (UI) using PyQt for three purposes: image detection, video input detection, and real-time detection. The UI interface includes the following features:
 - **Frame Analysis:** The application can count the number of classes present in the frame.
 - **Enhancement Techniques:** We implemented image enhancement techniques to improve prediction accuracy.
 - **Maintenance Status:** The UI provides a maintenance status indicator (Low, Medium, High) based on the detection happening in the frame. This status can be adjusted according to specific needs.
