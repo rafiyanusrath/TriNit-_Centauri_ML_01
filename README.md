@@ -1,4 +1,4 @@
-# Automated-Road-Damage-Detection-for-Infrastructure-Maintenance
+# Automated-Road-Damage-Detection-for-Infrastructure-Maintenance-Using-Yolov8
 
 This project aims to automate the process of road damage detection for infrastructure maintenance using machine learning techniques.
 
