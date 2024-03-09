@@ -1,0 +1,80 @@
+/* Style for QLabel */
+* {
+    background-color: #141010;
+}
+#title{
+    color: #f70776;
+}
+/* QWidget {
+    background-color: black;
+} */
+
+/* Style for QPushButton */
+QPushButton {
+    background-color: #680747;
+    /* box-shadow: #b30000; */
+    /* Blue color */
+    color: #f70776;
+    border: 2px solid #f70776;
+    border-radius: 15px;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#buttonlabel {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+/* Hover effect for QPushButton */
+QPushButton:hover {
+    background-color: #f70776;
+    color: #680747;
+    /* border: 2px solid #ff0000; */
+    /* cursor: pointer; */
+    /* Darker blue color on hover */
+}
+
+/* Style for QTextEdit */
+QTextEdit {
+    font-size: 14px;
+    border: 2px solid #ced4da;
+    color: #f70776;
+    /* Gray border */
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Style for QLabel containing traffic status */
+#traficLabel {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(59, 236, 59);
+    /* Default color is green */
+}
+
+#cl {
+    font-size: 20px;
+    /* font-weight: bold; */
+    color: #f70776;
+    /* Default color is green */
+}
+
+#pl {
+    font-size: 20px;
+    /* font-weight: bold; */
+    color: #f70776;
+    /* Default color is green */
+}
+
+/* Conditional styling based on traffic status */
+#traficLabel[status="Medium"] {
+    color: orange;
+    /* Orange color for Medium traffic */
+}
+
+#traficLabel[status="High"] {
+    color: red;
+    /* Red color for High traffic */
+}
