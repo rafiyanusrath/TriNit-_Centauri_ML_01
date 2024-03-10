@@ -2,8 +2,8 @@
 
 This project aims to automate the process of road damage detection for infrastructure maintenance using machine learning techniques.
 
-Video Presentation: https://drive.google.com/file/d/11_2Is0I-EMBn9Ae1p5eSu23otedka92I/view?usp=sharing
-](https://drive.google.com/file/d/1O7T8AVhkwkpAR_ntILR8RrjKOm8vqjci/view?usp=sharing)
+Video Presentation: https://drive.google.com/file/d/1O7T8AVhkwkpAR_ntILR8RrjKOm8vqjci/view?usp=sharing
+
 ## Table of Contents
 - [Data Preprocessing](#data-preprocessing)
 - [Training](#training)
